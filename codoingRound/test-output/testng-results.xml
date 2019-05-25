@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="130284" started-at="2019-05-25T17:55:39Z" finished-at="2019-05-25T17:57:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="130284" started-at="2019-05-25T17:55:39Z" finished-at="2019-05-25T17:57:49Z">
+      <class name="FlightBookingTest">
+        <test-method status="PASS" signature="setupHomePage()[pri:0, instance:FlightBookingTest@7823a2f9]" name="setupHomePage" is-config="true" duration-ms="19409" started-at="2019-05-25T23:27:00Z" finished-at="2019-05-25T23:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupHomePage -->
+        <test-method status="PASS" signature="testThatResultsAppearForAOneWayJourney()[pri:0, instance:FlightBookingTest@7823a2f9]" name="testThatResultsAppearForAOneWayJourney" duration-ms="28371" started-at="2019-05-25T23:27:20Z" finished-at="2019-05-25T23:27:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThatResultsAppearForAOneWayJourney -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:FlightBookingTest@7823a2f9]" name="tearDown" is-config="true" duration-ms="940" started-at="2019-05-25T23:27:48Z" finished-at="2019-05-25T23:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FlightBookingTest -->
+      <class name="SignInTest">
+        <test-method status="PASS" signature="setupHomePage()[pri:0, instance:SignInTest@1593948d]" name="setupHomePage" is-config="true" duration-ms="20091" started-at="2019-05-25T23:25:39Z" finished-at="2019-05-25T23:25:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupHomePage -->
+        <test-method status="PASS" signature="shouldThrowAnErrorIfSignInDetailsAreMissing()[pri:0, instance:SignInTest@1593948d]" name="shouldThrowAnErrorIfSignInDetailsAreMissing" duration-ms="10303" started-at="2019-05-25T23:25:59Z" finished-at="2019-05-25T23:26:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowAnErrorIfSignInDetailsAreMissing -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SignInTest@1593948d]" name="tearDown" is-config="true" duration-ms="883" started-at="2019-05-25T23:26:09Z" finished-at="2019-05-25T23:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SignInTest -->
+      <class name="HotelBookingTest">
+        <test-method status="PASS" signature="setupHomePage()[pri:0, instance:HotelBookingTest@1b604f19]" name="setupHomePage" is-config="true" duration-ms="18024" started-at="2019-05-25T23:26:10Z" finished-at="2019-05-25T23:26:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupHomePage -->
+        <test-method status="PASS" signature="shouldBeAbleToSearchForHotels()[pri:0, instance:HotelBookingTest@1b604f19]" name="shouldBeAbleToSearchForHotels" duration-ms="31374" started-at="2019-05-25T23:26:28Z" finished-at="2019-05-25T23:26:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToSearchForHotels -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:HotelBookingTest@1b604f19]" name="tearDown" is-config="true" duration-ms="863" started-at="2019-05-25T23:26:59Z" finished-at="2019-05-25T23:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- HotelBookingTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
